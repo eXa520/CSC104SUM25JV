@@ -1,0 +1,26 @@
+ body{
+            background-color: rgba(179, 223, 231, 0.74);
+            color:rgb(4, 4, 235);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header{
+            background-color:rgb(4, 4, 235);
+            color: rgba(243, 246, 247, 0.897);
+            padding: 30px;
+        }
+
+        main{
+            padding:30px;
+        }
+
+        ul, li{
+            padding:3px;
+        }
+
+        p{
+            line-height: 1.5;
+            font-size: 14pt;
+        }
