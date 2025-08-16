@@ -1,0 +1,42 @@
+body{
+            background-color: rgb(241, 208, 204);
+            color: rgb(66, 55, 223);
+            margin: 0;
+            pad: 0;
+        }
+
+        header{
+            background-color: whitesmoke;
+            text-align: center;
+            padding: 20px; 
+        }
+
+        h1{
+            color:rgb(190, 34, 190) ;
+        }
+        /* menu styles*/
+        nav a {
+            color: navy;
+            text-decoration:none;
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+            font-size: x-large;
+        }
+
+        nav a:hover{
+           color:rgb(190, 34, 190) 
+        }
+
+        main{
+            padding: 20px;
+        }
+        
+       .img-decorative{
+            /* the image will fill in 100% of the container it is in;based on how the page is set up, wil will fill in the screen size */
+            width: 100%;
+            /* so the images does not exceed the arbitrary limit of 400px */
+            max-width: 400px;
+            /* gives the rounded corners look*/
+            border-radius: 10px;
+       } 
