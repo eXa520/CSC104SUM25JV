@@ -39,4 +39,60 @@ body{
             max-width: 400px;
             /* gives the rounded corners look*/
             border-radius: 10px;
+
        } 
+
+ /* Start Flex box styles - can use on any elements, since they are custome classes */
+         /* the parent container styles */
+        .flex-container{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        /* the styles for each flex column */
+        .flex-column{
+            text-align: center;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: whitesmoke;
+
+        }
+
+        .flex-column {
+            max-width: 500px;
+            width: 80%;
+            border-radius: 5px;
+        }
+         /* End Flex box styles */
+
+         /* Start Flex Gallery styles */
+        .flex-gallery-container{
+            display: flex;
+            flex-wrap: wrap;
+       }
+
+       .flex-gallery-column{
+            flex: 25%;
+            text-align: center;
+       }
+
+       .flex-gallery-column img{
+            width: 90%;
+            border-radius: 5px;
+       }
+
+       /* media query for smaller screen sizes */
+       @media (max-width: 900px){
+        .flex-gallery-column{
+            flex: 50%;
+        }
+       }
+
+       @media (max-width: 600px){
+        .flex-gallery-column{
+            flex:100%;
+        }
+       }
+       /* End Flex Gallery Styles */
